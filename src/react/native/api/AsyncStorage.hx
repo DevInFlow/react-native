@@ -3,7 +3,7 @@ package react.native.api;
 import js.Error;
 import js.Promise;
 
-@:jsRequire('react-native', 'AsyncStorage')
+@:jsRequire('@react-native-async-storage/async-storage', 'default')
 extern class AsyncStorage {
 	static function getItem(key:String, ?callback:Error->String->Void):Promise<String>;
 	static function setItem(key:String, value:String, ?callback:Error->Void):Promise<Nothing>;

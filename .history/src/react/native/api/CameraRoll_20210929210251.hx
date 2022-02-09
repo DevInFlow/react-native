@@ -1,6 +1,6 @@
 package react.native.api;
 
-import js.lib.Promise;
+import js.Promise;
 using StringTools;
 
 @:jsRequire('@react-native-community/cameraroll/', 'default')

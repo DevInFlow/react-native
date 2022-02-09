@@ -6,4 +6,5 @@ import react.ReactComponent;
 @:jsRequire('react-native', 'StatusBar')
 extern class StatusBar extends ReactComponentOfProps<StatusBarProps> {
 	static var currentHeight:Float;
+	static function setHidden(value:Bool,?animation:String):Void;
 }

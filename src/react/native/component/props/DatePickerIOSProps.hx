@@ -16,7 +16,7 @@ typedef DatePickerIOSProps = {
 
 
 @:enum
-abstract DatePickerIOSMode(String) to String {
+abstract DatePickerIOSMode(String) from String to String {
 	var Date = 'date';
 	var Time = 'time';
 	var DateTime = 'datetime';

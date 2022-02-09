@@ -1,9 +1,9 @@
 package react.native.api;
 
-import js.lib.Promise;
+import js.Promise;
 using StringTools;
 
-@:jsRequire('@react-native-community/cameraroll/', 'default')
+@:jsRequire('react-native', 'CameraRoll')
 extern class CameraRoll {
 	static function saveImageWithTag(tag:String):Promise<String>;
 	static function saveToCameraRoll(tag:String, ?type:SaveType):Promise<String>;

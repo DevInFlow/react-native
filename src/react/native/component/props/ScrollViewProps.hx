@@ -40,6 +40,7 @@ typedef ScrollViewProps = {
 	?canCancelContentTouches:Bool,
 	?centerContent:Bool,
 	?contentInset:{?top:Float, ?left:Float, ?bottom:Float, ?right:Float},
+	?contentInsetAdjustmentBehavior:String,
 	?contentOffset:{?x:Float, ?y:Float},
 	?decelerationRate:EitherType<DecelarationRate, Float>,
 	?directionalLockEnabled:Bool,
